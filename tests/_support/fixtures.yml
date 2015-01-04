@@ -1,0 +1,12 @@
+Lys\Cms\Models\Page:
+  name: $string
+  home: 0
+  created_at: $date
+  updated_at: $date
+
+Lys\Cms\Models\Path:
+  entity_id: $integer
+  entity_type: $string
+  url: $string
+  created_at: $date
+  updated_at: $date
